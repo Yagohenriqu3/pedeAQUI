@@ -1,0 +1,46 @@
+.container--cardPromocao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 1.5em;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.103);
+    margin: 0.5em 0;
+    padding: 0.2em;
+
+}
+
+.container--cardPromocao div{
+    width: 100%;
+}
+
+.cardPromocao--descricao{
+    width: 70%;
+    padding: 0 0.5em 0.5em 0.5em;
+    margin: 0;
+
+}
+
+.cardPromocao--descricao p{
+    font-size: 0.8em;
+    
+}
+
+.cardPromocao--descricao button{
+    background-color: white;
+    border: none;
+    
+    
+    
+}
+
+.cardPromocao--imagem{
+    width: 30%;
+    
+    
+}
+
+.container--cardPromocao div img{
+    width: 100%;
+    height: 100%;
+}

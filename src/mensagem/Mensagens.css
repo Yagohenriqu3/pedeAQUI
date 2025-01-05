@@ -1,0 +1,78 @@
+.mensagens-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .mensagens-list {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .mensagem-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .mensagem-item.usuario {
+    background-color: #e0f7fa;
+    align-self: flex-end;
+  }
+  
+  .mensagem-item.sistema {
+    background-color: #fce4ec;
+  }
+  
+  .mensagem-texto {
+    margin: 0;
+    color: #333;
+  }
+  
+  .mensagem-info {
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+  }
+  
+  .mensagem-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mensagem-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .mensagem-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .mensagem-input button:hover {
+    background-color: #0056b3;
+  }
+  

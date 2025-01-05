@@ -1,0 +1,13 @@
+.ContainerBannerHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    
+}
+
+.ContainerBannerHome img{
+    width: 100%;
+    border-radius: 2em;
+}

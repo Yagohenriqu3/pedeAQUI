@@ -1,0 +1,37 @@
+.Container--MenuNavegacao {
+    position: fixed;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; 
+    text-align: center; 
+}
+
+.Container--MenuNavegacao ul {
+    padding: 0 2em;
+    margin: 0;
+    display: flex;
+    background-color: black;
+    width: 80%;
+    max-width: 500px; 
+    height: 4em;
+    border-radius: 3em;
+    margin: 0 auto; 
+    list-style: none;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.Container--MenuNavegacao nav ul li {
+    color: white;
+    font-size: 1.2em;
+}
+
+.Container--MenuNavegacao nav ul .menunavegacao--home {
+    font-size: 2.5em;
+    padding: 0 1em;
+    background-color: white;
+    color: black;
+    border-radius: 5em;
+    margin: 0.1em ;
+}

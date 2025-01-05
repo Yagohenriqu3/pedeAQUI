@@ -1,0 +1,59 @@
+.usuarios-container {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .dados-usuario {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .dados-usuario p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .pedidos-list {
+    margin-top: 20px;
+  }
+  
+  .pedido-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .pedido-item span {
+    margin: 3px 0;
+  }
+  
+  .pedido-data {
+    color: #444;
+  }
+  
+  .pedido-itens {
+    color: #777;
+  }
+  
+  .pedido-total {
+    color: #000;
+    font-weight: bold;
+  }
+  
